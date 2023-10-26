@@ -1,0 +1,22 @@
+/* #FF6699 Rosa
+#000000 Negro
+#FFFFFF Blanco */
+
+/* https://css-tricks.com/snippets/svg/curved-text-along-path/ */
+
+@font-face {
+    font-family: 'BabyDoll';
+    src: local('BabyDoll') url('BabyDoll.otf') format('opentype');
+  }
+
+.baby-doll-font {
+    font-family: 'BabyDoll', sans-serif !important;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}

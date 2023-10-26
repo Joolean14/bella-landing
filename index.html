@@ -1,13 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bella Álvarez</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Bella Álvarez</h1>
-    
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <!-- <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a> -->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    SHOWS
+                </a>
+                <a class="navbar-item">
+                    TIENDA
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item">
+                    Biografía
+                </a>
+                <a class="navbar-item">
+                    Cancionero
+                </a>
+                <a class="navbar-item">
+                    Films
+                </a>
+                <a class="navbar-item">
+                    Ustedes
+                </a>
+                <a class="navbar-item">
+                    Unete Newsletter
+                </a>
+                <a class="navbar-item">
+                    Redes
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-danger is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <h1>Bella Álvarez</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-warning is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Biografía
+                </p>
+                <p class="">
+                    María Isabella Álvarez Correa (nacida el 7 de marzo de
+                    1998) conocida ar�s�camente como Bella Álvarez, es
+                    una cantante y compositora colombiana. Su música se
+                    construye desde las letras sencillas y la evocación de la
+                    naturaleza para narrar desde lo co�diano y sus sen�-
+                    mientos. Con su guitarra y su voz Bella mezcla los ele-
+                    mentos del folk, el pop y las exploraciones sonoras
+                    para dar como resultado paisajes que representan el
+                    campo, el olvido y el regreso.
+                    <br><br>
+                    Lanzó su EP debut, 'Hortalizas y Flores', en 2019, al que
+                    siguió su álbum debut, 'Canciones para una casa chi-
+                    quita', lanzado en 2021. Durante sus 4 años de carrera
+                    , Bella Álvarez ha sido nominada a los premios India
+                    Catalina 2021 como Mejor Directora Musical por la
+                    Banda Sonora de la Serie de Televisión ‘Madre Selva’ ;
+                    par�cipó en el Fes�val Ciudad Altavoz 2021; el Fes�val
+                    Estéreo Picnic 2022, realizó dos giras nacionales,
+                    debutó en la Ciudad de México, finalizando allí gran
+                    parte de lo que será su segundo Álbum de estudio 'El
+                    Segundo Sol', Producido por Adán Naranjo; Álbum con
+                    el que se embarcará en una gira que la llevará por
+                    Colombia y La�noamérica.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Cancionero
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-secondary is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Films
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-link is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Ustedes
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-info is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Newsletter
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <svg viewBox="0 0 425 300">
+                <path id="curve" d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145" />
+                <text x="25">
+                  <textPath xlink:href="#curve">
+                    Dangerous Curves Ahead
+                  </textPath>
+                </text>
+            </svg> 
+            <div class="">
+                <p class="title">
+                    Redes
+                </p>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Spotify</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-warning is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Shows
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero is-danger is-fullheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Tienda
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAVBAR -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
 </body>
+
 </html>
