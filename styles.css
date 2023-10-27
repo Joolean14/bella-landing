@@ -2,6 +2,8 @@
 #000000 Negro
 #FFFFFF Blanco */
 
+/* https://codepen.io/kathykato/pen/prEmKe */
+
 /* https://css-tricks.com/snippets/svg/curved-text-along-path/ */
 
 @font-face {
@@ -15,6 +17,10 @@
 
 .viewport {
     min-height: 100vh;
+}
+
+.bella-cover {
+    width: 30vw !important;
 }
 
 .curved-text-container {
