@@ -13,10 +13,27 @@
     font-family: 'BabyDoll', sans-serif !important;
 }
 
+.viewport {
+    min-height: 100vh;
+}
+
+.curved-text-container {
+    height: 10vh;
+    width: 50vw;
+}
+
 path {
   fill: transparent;
 }
 
 text {
   fill: #FF9800;
+  font-size: 2vw;
 }
+
+
+.social-media-btn {
+    border: 2px #000000 solid;
+    
+}
+
