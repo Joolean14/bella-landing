@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bella Álvarez</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -66,11 +70,10 @@
         <p class="title has-text-right">
             Biografía
         </p>
-
         <div class="container">
             <div class="columns">
                 <div
-                    class="column is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-one-third">
+                    class="column is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-half">
                     <p class="">
                         María Isabella Álvarez Correa (nacida el 7 de marzo de
                         1998) conocida artísricamente como Bella Álvarez, es
@@ -98,11 +101,119 @@
                     </p>
                 </div>
                 <div
-                    class="column is-flex is-flex-direction-column is-justify-content-center is-align-items-center has-text-centered is-one-third">
-                    <img src="assets/luna.png" alt=""> </div>
+                    class="column is-flex is-flex-direction-column is-justify-content-center is-align-items-center has-text-centered is-half">
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                        class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
+    <section class="section viewport">
+        <p class="title has-text-right">
+            Films
+        </p>
+        <div class="vid-container">
+            <div class="slider">
+                <img class="active slider-img" src="https://source.unsplash.com/gKk9rpyDryU">
+                <img class="slider-img" src="https://source.unsplash.com/VFGEhLznjPU">
+                <img class="slider-img" src="https://source.unsplash.com/InR-EhiO_js">
+            </div>
+            <nav class="slider-nav">
+                <ul>
+                    <li class="arrow">
+                        <button class="video-slider-btn previous">
+                            <span>
+                                Anterior
+                            </span>
+                        </button>
+                    </li>
+                    <li class="arrow">
+                        <button class="video-slider-btn next">
+                            <span>
+                                Siguiente
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="section viewport">
+        <p class="title has-text-right">
+            Newsletter
+        </p>
+        <p>Embeber código de plataforma de Email Marketing</p>
     </section>
 
     <section class="section viewport">
@@ -165,6 +276,81 @@
 
         });
     </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+
+    <!-- films script -->
+    <script>
+        const items = document.querySelectorAll('.slider-img');
+        const itemCount = items.length;
+        const nextItem = document.querySelector('.next');
+        const previousItem = document.querySelector('.previous');
+        let count = 0;
+
+        function showNextItem() {
+            items[count].classList.remove('active');
+
+            if (count < itemCount - 1) {
+                count++;
+            } else {
+                count = 0;
+            }
+
+            items[count].classList.add('active');
+            console.log(count);
+        }
+
+        function showPreviousItem() {
+            items[count].classList.remove('active');
+
+            if (count > 0) {
+                count--;
+            } else {
+                count = itemCount - 1;
+            }
+
+            items[count].classList.add('active');
+            console.log(count);
+        }
+
+        function keyPress(e) {
+            e = e || window.event;
+
+            if (e.keyCode == '37') {
+                showPreviousItem();
+            } else if (e.keyCode == '39') {
+                showNextItem();
+            }
+        }
+
+        nextItem.addEventListener('click', showNextItem);
+        previousItem.addEventListener('click', showPreviousItem);
+        document.addEventListener('keydown', keyPress);
+    </script>
+
 </body>
 
 </html>
