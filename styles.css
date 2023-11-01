@@ -37,9 +37,35 @@ text {
     font-size: 2vw;
 }
 
+.is-pink {
+  color:  #FF6699 !important;
+}
+
+
+.title-border {
+  border: #000 solid 2px;
+}
+
+.pink-border {
+  border: #FF6699 solid 2px;
+}
+
+.pink-background {
+  background-color:  #FF6699 !important;
+}
+
+.black-background {
+  background-color:  #000000 !important;
+}
+
+.white-background {
+  background-color: #fff !important;
+}
+
 
 .social-media-btn {
     border: 2px #000000 solid;
+    color: #FFF !important;
 
 }
 

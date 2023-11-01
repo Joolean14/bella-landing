@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item has-text-weight-bold is-size-4" href="https://bulma.io">
+            <a class="navbar-item has-text-weight-bold is-size-4 is-pink" href="https://bulma.io">
                 Bella Álvarez
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -36,13 +36,13 @@
                 </a> -->
             </div>
             <div class="navbar-end">
-                <a class="navbar-item">
+                <a href="#bio" class="navbar-item">
                     Biografía
                 </a>
                 <!-- <a class="navbar-item">
                     Cancionero
                 </a> -->
-                <a class="navbar-item">
+                <a href="#films" class="navbar-item">
                     Films
                 </a>
                 <!-- <a class="navbar-item">
@@ -51,22 +51,24 @@
                 <a class="navbar-item">
                     Unete Newsletter
                 </a> -->
-                <a class="navbar-item">
+                <a href="#redes" class="navbar-item">
                     Redes
                 </a>
             </div>
         </div>
     </nav>
 
-    <section class="section viewport has-text-centered">
+    <section class="section viewport has-text-centered is-pink is-size-1">
         <h1>Bella Álvarez</h1>
         <img class="bella-cover is-rounded" src="assets/bella.jpg" alt="">
     </section>
 
     <section class="section viewport">
-        <p class="title has-text-right">
-            Biografía
-        </p>
+        <div class="is-flex is-justify-content-flex-end mb-5">
+            <p id="bio" class="title has-text-right title-border p-4 is-pink">
+                Biografía
+            </p>
+        </div>
         <div class="container">
             <div class="columns">
                 <div
@@ -175,10 +177,12 @@
         </div>
     </section>
 
-    <section class="section viewport">
-        <p class="title has-text-right">
-            Films
-        </p>
+    <section class="section viewport black-background">
+        <div class="is-flex is-justify-content-flex-end mb-5">
+            <p id="bio" class="title has-text-right pink-border p-4 has-text-white">
+                Films
+            </p>
+        </div>
         <div class="vid-container">
             <div class="slider">
                 <div class="slider-img active">
@@ -212,14 +216,14 @@
             <nav class="slider-nav">
                 <ul>
                     <li class="arrow">
-                        <button class="video-slider-btn previous">
+                        <button class="video-slider-btn previous is-pink">
                             <span>
                                 Anterior
                             </span>
                         </button>
                     </li>
                     <li class="arrow">
-                        <button class="video-slider-btn next">
+                        <button class="video-slider-btn next is-pink">
                             <span>
                                 Siguiente
                             </span>
@@ -237,10 +241,12 @@
         <p>Embeber código de plataforma de Email Marketing</p>
     </section> -->
 
-    <section class="section viewport">
-        <p class="title has-text-right">
-            Redes
-        </p>
+    <section class="section viewport pink-background">
+        <div class="is-flex is-justify-content-flex-end mb-5">
+            <p id="bio" class="title has-text-right title-border p-4 has-text-white">
+                Redes
+            </p>
+        </div>
         <!-- <div class="curved-text-container has-text-centered">
             <svg viewBox="0 0 425 300">
                 <path id="curve"
