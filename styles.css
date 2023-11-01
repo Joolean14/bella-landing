@@ -8,10 +8,10 @@
 
 @font-face {
     font-family: 'BabyDoll';
-    src: local('BabyDoll') url('BabyDoll.otf') format('opentype');
+    src: url('assets/babydoll/BabyDoll.otf') format('opentype');
 }
 
-.baby-doll-font {
+body {
     font-family: 'BabyDoll', sans-serif !important;
 }
 
@@ -52,10 +52,10 @@ body {
 }
 
 body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
+    /* background: #eee; */
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px; */
+    /* color: #000; */
     margin: 0;
     padding: 0;
 }
@@ -158,7 +158,7 @@ body {
   background: transparent;
   padding: 20px 5px;
   color: #3c376f;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .video-slider-btn span {
