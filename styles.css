@@ -1,6 +1,23 @@
 /* #FF6699 Rosa
 #000000 Negro
-#FFFFFF Blanco */
+#FFFFFF Blanco 
+
+Nombre Completo
+Ciudad
+Correo
+Telefono
+Fecha de nacimiento
+
+Antes de qr de comunidad
+
+Tienda
+Cancionero
+
+https://codepen.io/rickyeckhardt/pen/poJwRRb
+
+
+
+*/
 
 /* https://codepen.io/kathykato/pen/prEmKe */
 
@@ -20,8 +37,17 @@ body {
 }
 
 .bella-cover {
-    width: 30vw !important;
+    width: 50vw !important;
+    border-radius: 10%;
+    box-shadow: 
+    inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+    0 0 0 1px hsla(0, 0%, 100%, 0.05),
+    0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+    0 0.9px 1.5px hsla(0, 0%, 0%, 0.045),
+    0 3.5px 6px hsla(0, 0%, 0%, 0.09),
+    0 0 10px #ffffff;  
 }
+
 
 .curved-text-container {
     height: 10vh;
@@ -183,8 +209,10 @@ body {
   text-decoration: none;
   background: transparent;
   padding: 20px 5px;
-  color: #3c376f;
   font-size: 1.3rem;
+  border: 2px solid white;
+  margin: 3vh;
+  padding: 1vh 2vw;
 }
 
 .video-slider-btn span {
@@ -250,4 +278,14 @@ body {
   to {
     opacity: 1;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .bella-cover {
+    width: 80vw !important;
+  }
+
+    .viewport {
+      min-height: 50vh !important;
+  }   
 }
