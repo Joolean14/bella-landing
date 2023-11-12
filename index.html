@@ -43,9 +43,6 @@
                     Comunidad
                 </a>
                 <a href="#films" class="navbar-item"> Films </a>
-                <!-- <a class="navbar-item">
-                    Unete Newsletter
-                </a> -->
                 <a href="#redes" class="navbar-item"> Redes </a>
             </div>
         </div>
@@ -81,6 +78,17 @@
             <div class="columns">
                 <div
                     class="column is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-half">
+                    <!-- <div class="curved-text-container">
+                        <svg viewBox="0 0 300 300" width="100%" height="100%">
+                            <path id="curve"
+                                d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145" />
+                            <text x="25">
+                                <textPath xlink:href="#curve">
+                                    B  e  l  l  a  Á  l  v  a  r  e  z
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div> -->
                     <p class="">
                         María Isabella Álvarez Correa (nacida el 7 de marzo de 1998)
                         conocida artísricamente como Bella Álvarez, es una cantante y
@@ -216,19 +224,27 @@
             </p>
         </div>
         <div class="contact-us">
-            <form>
-              <input placeholder="Name" type="text" required="">
-              <input placeholder="Email" type="email" name="customerEmail">
-              <input placeholder="Phone" type="tel" name="customerPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-              <button type="button">SIGN UP</button>
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+                <input placeholder="Nombre completo" type="text" required>
+                <input placeholder="Ciudad" type="text" required>
+                <input type="date" required>
+                <input placeholder="Correo" type="email" name="_replyto" required>
+                <input placeholder="Telefono" type="tel" name="customerPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+                <button class="form-button" type="button">SIGN UP</button>
+                <!-- HIDDEN -->
+                <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+              <input type="hidden" name="_autoresponse" value="your custom message">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" value="New submission!"> -->
             </form>
-          </div>
-          
+        </div>
+
     </section>
 
     <section class="section viewport black-background">
         <div class="is-flex is-justify-content-flex-end mb-5">
-            <p id="bio" class="title has-text-right pink-border p-4 has-text-white">
+            <p id="films" class="title has-text-right pink-border p-4 has-text-white">
                 Films
             </p>
         </div>
@@ -279,16 +295,9 @@
         </div>
     </section>
 
-    <!-- <section class="section viewport">
-        <p class="title has-text-right">
-            Newsletter
-        </p>
-        <p>Embeber código de plataforma de Email Marketing</p>
-    </section> -->
-
     <section class="section viewport pink-background">
         <div class="is-flex is-justify-content-flex-end mb-5">
-            <p id="bio" class="title has-text-right title-border p-4 has-text-white">
+            <p id="redes" class="title has-text-right title-border p-4 has-text-white">
                 Redes
             </p>
         </div>
